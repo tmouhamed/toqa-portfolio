@@ -1,25 +1,21 @@
 import React from 'react'
 import './skillsPage.css'
-import skills from './skills.json'
-
-const getImageUrl = (path) => {
-    return new URL(`./${path}`, import.meta.url).href;
-};
+import data from '../../assets/data/index.json'
 
 const SkillsPage = () => {
     return (
         <section className='skills'>
-            <h1 className='skillsTitle'>Always Developing my Skills</h1>
-            <div className='scroller'>
-                <div> {
-                    skills.map((skill, id) => {
-                        return(
-                            <div>
-                                <img src={getImageUrl(skill.imageSrc)} alt={skill.title}/>
+            <div className="skills_container">
+                <h2 className="skills_heading">My Skills</h2>
+                <div className="skills_container_cards">
+                    {data?.skills?.map((skill, index) => (
+                        <div key={index} className="skills_container_card">
+                            <div className="skills_container_img">
+                                <img src={skill.src} alt={skill.title}/>
                             </div>
-                    )
-                    })
-                }
+                            <h5>{skill.title}</h5>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>
