@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./java.png",
+      "title": "Java",
+      "description": "hhhhhhhhhhhhhhhhhhhh"
+    },
+    {
+      "id": "2",
+      "src": "./java.png",
+      "title": "Java",
+      "description": "hhhhhhhhhhhhhhhhhhhh"
+    },
+    {
+      "id": "3",
+      "src": "./java.png",
+      "title": "Java",
+      "description": "hhhhhhhhhhhhhhhhhhhh"
+    },
+    {
+      "id": "4",
+      "src": "./java.png",
+      "title": "Java",
+      "description": "hhhhhhhhhhhhhhhhhhhh"
+    },
+    {
+      "id": "5",
+      "src": "./java.png",
+      "title": "Java",
+      "description": "hhhhhhhhhhhhhhhhhhhh"
+    }
+  ]
+}
