@@ -64,6 +64,18 @@ export const Navbar = () => {
                               duration={500}
                               to={"portfolio"}
                               className="navbarItem">
+                            Skills
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeNav}
+                              activeClass="navbarActive"
+                              spy={true}
+                              smooth={true}
+                              offset={-70}
+                              duration={500}
+                              to={"portfolio"}
+                              className="navbarItem">
                             Portfolio
                         </Link>
                     </li>
