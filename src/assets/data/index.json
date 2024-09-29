@@ -43,6 +43,7 @@
   ],
   "projects": [
     {
+      "id": "1",
       "name": "BCMJ",
       "description": "An online medical journal that includes mySQL saved medical articles, and classifieds posting platform with a payment system for the users. ",
       "skills": ["HTML", "CSS", "PHP", "Drupal", "MySQL"],
@@ -50,6 +51,7 @@
       "link": "https://www.bcmj.org/"
     },
     {
+      "id": "2",
       "name": "Homeshphere",
       "description": "A platform that connect real state agents with renters. It allows agents to post their properties and handle all rental viewings and applications with minimum effort.",
       "skills": ["HTML", "CSS3", "React.js", "Express.js"],
@@ -57,6 +59,7 @@
       "photo": "homeLogo"
     },
     {
+      "id": "3",
       "name": "inStock",
       "description": "Collaborative programming project utilizing Jira software to coordinate project tickets in an agile environment. Web application allowing users to find, add, or remove warehouse and inventory data.",
       "skills": ["CSS3", "React.js", "Express.js" ],
@@ -64,6 +67,7 @@
       "link": "https://github.com/Ivan1023/instock-roy-6"
     },
     {
+      "id": "4",
       "name": "Bandsite",
       "description": "A multi-page website which allows users to post comments and view upcoming band show date information in a table format. Information was generated from a RESTful API using axios and comments were posted via JavaScript and axios.",
       "skills": [" HTML5", "CSS3" , "Javascript"],
@@ -71,6 +75,7 @@
       "link": "https://github.com/tmouhamed/toqa-mouhamed-bansdite/tree/master/sprint-3"
     },
     {
+      "id": "5",
       "name": "Brainflex",
       "description": "A video streaming platform where users can upload their videos with descriptions. Axios was used to post videos and content as well as to populate data from the RESTful API, which was built using Node and Express.js on the server side.",
       "skills": ["HTML", "CSS3", "React.js", "Express.js"],
@@ -78,6 +83,7 @@
       "link": "https://github.com/tmouhamed/toqa-mouhamed-brainflix/tree/master/sprint3"
     },
     {
+      "id": "6",
       "name": "Todo List Application",
       "skills": ["HTML", "CSS3", "React.js", "Express.js"],
       "description": "Coming soon",

@@ -1,7 +1,7 @@
 import { Navbar } from "./components/navbar/navbar";
 import LandingPage from "./pages/landingPage/landingPage";
 import SkillsPage from "./pages/skillsPage/skillsPage";
-import ProjectsPage from "./pages/projects/projects";
+import ProjectsPage from "./pages/projectsPage/projectsPage";
 
 function App() {
   return (

@@ -1,0 +1,48 @@
+.projects_container{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projects_title{
+
+}
+.projects_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project_card {
+    max-width: 25rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    .project_img {
+        max-width: 20rem;
+        margin-bottom: 2rem;
+    }
+    .project_card_title {
+        font-weight: 700;
+    }
+    .project_card_description {
+        margin-top: 2rem;
+    }
+    .project_card_skills {
+        margin-top: 2rem;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .skills_list {
+            font-weight: 500;
+            padding: 0.5rem  1.5rem;
+            border-radius: 100px;
+            background-color: #bfdc80;
+        }
+    }
+}
