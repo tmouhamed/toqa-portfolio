@@ -6,7 +6,7 @@ import link from '../../assets/link.png'
 
 const ProjectsPage = () => {
     return (
-        <div className="projects-page">
+        <div id="projects" className="projects-page">
             <section className='projects_container'>
                 <h2 className="projects_heading">Projects</h2>
                 <div className="projects_cards">

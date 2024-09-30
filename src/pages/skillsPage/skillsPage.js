@@ -4,7 +4,7 @@ import data from '../../assets/data/index.json'
 
 const SkillsPage = () => {
     return (
-        <section className='skills'>
+        <section id="skills" className='skills'>
             <div className="skills_container">
                 <h2 className="skills_heading">My Skills</h2>
                 <div className="skills_container_cards">

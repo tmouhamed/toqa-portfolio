@@ -4,7 +4,7 @@ import {Contactform} from "../../components/contactform/contactform";
 import data from '../../assets/data'
 export const ContactPage = () => {
     return (
-        <div className="contact_page">
+        <div id="contact" className="contact_page">
             <section className="contact_section">
                 <p className="contact_sub_title">Get In Touch!</p>
                 <h1 className="contact_heading">Contact Me</h1>

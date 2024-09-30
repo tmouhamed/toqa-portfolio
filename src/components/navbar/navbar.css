@@ -1,34 +1,37 @@
 .navbar {
-    width: 100%;
     margin: 0 auto;
-    padding: 2rem 6rem;
+    height: 5rem;
+    width: 100%;
+    max-width: 85rem;
     display: flex;
-    justify-content:space-between;
     align-items: center;
-    position: fixed;
+    justify-content: space-between;
+    position: sticky;
     top: 0;
     z-index: 3;
-
-    .navbarLogo {
-        object-fit: cover;
-        height: 3rem;
-        width: 4rem;
-    }
-
-    .navbarItems > ul {
-        gap: 2rem;
-        list-style: none;
-        display: flex;
-        align-items: flex-start;
-        text-decoration: none;
-    }
-    .navbarItems ul li a{
-        text-decoration: none;
-        cursor: pointer;
-        font-weight: 400;
-        font-size: 1.15rem;
-    }
 }
-.navbarItems .navbarActive {
-    text-shadow: 0 1px 1px #000000;
+.navbar_logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+.desktop_menu .desktop_menu_item {
+    margin: 1rem;
+    cursor: pointer;
+}
+.desktop_menu .desktop_menu_item:hover{
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.2rem solid yellowgreen;
+}
+.active {
+
+}
+.desktop_menu_btn {
+    background-color: #ffde59;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    color: #000000;
+    font-weight: 500;
 }
