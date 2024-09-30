@@ -6,7 +6,7 @@ import profilePhoto from '../../assets/profilePhoto.png'
 
 const LandingPage = () => {
     return (
-        <section className="heroSection">
+        <section id="about" className="heroSection">
             <div className="heroSection-left">
                 <span className='hello'>Hello,</span>
                 <span className="introTitle">I'm Toqa <span className="introName"> Mouhamed</span> <br />Software Engineer</span>
