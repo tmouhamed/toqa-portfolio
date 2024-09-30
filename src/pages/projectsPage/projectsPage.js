@@ -15,15 +15,15 @@ const ProjectsPage = () => {
                                 <img className="project_img" src={project.src} alt={project.name}/>
                                 <h3 className="project_card_title">{project.name}</h3>
                                 <p className="project_card_description">{project.description}</p>
-                                <ul className="project_card_skills">{project?.skills.map((skill, index) => {
-                                    return (
-                                        <Link href={skill.link}>
-                                            <li className="skills_list">{skill}</li>
-                                        </Link>)
-                                })}</ul>
-                                <div className="card_overlay">
-                                    <a href={project.link} target="_blank"><img src={link} className="overlay_img" alt={"link"}/></a>
-                                </div>
+                                <ul className="project_card_skills">{project?.skills?.map((skill) => (
+                                    <Link href={skill.link} key={skill.id}>
+                                        <li className="skills_list">{skill}</li>
+                                    </Link>
+                                    ))}
+                                </ul>
+                                <span className="card_overlay">
+                                    <a href={project.link} target="_blank" rel="noreferrer"><img src={link} className="overlay_img" alt={"link"}/></a>
+                                </span>
                             </div>
                         ))
                         }

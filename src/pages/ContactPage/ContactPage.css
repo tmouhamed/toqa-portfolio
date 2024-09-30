@@ -1,4 +1,7 @@
-.contact_page {
+.contact_page{
+    background-image: url("../../assets/contact.png");
+}
+.contact_section {
     margin: 0 auto;
     overflow: hidden;
     width: 100vw;
@@ -11,4 +14,15 @@
 }
 .contact_heading{
     margin: 2rem 0;
+}
+.contact_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.link_img {
+    width: 100%;
+    max-width: 3rem;
 }
