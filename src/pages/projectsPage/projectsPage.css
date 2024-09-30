@@ -1,3 +1,8 @@
+.projects-page {
+    background-image: url('../../assets/projects-page.png');
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
 .projects_container{
     margin: 0 auto;
     overflow: hidden;
@@ -7,7 +12,11 @@
     flex-direction: column;
     justify-content: center;
 }
-.projects_title{
+.projects_heading{
+    margin: 4rem 0;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
 
 }
 .projects_cards {
@@ -15,34 +24,60 @@
     flex-wrap: wrap;
 }
 .project_card {
-    max-width: 25rem;
+    position: relative;
+    max-width: 22rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    border-radius: 0.7rem;
+    margin: 1rem;
+    background-color: floralwhite;
+    box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.2);
 
     .project_img {
         max-width: 20rem;
         margin-bottom: 2rem;
+        border-radius: 0.7rem;
     }
     .project_card_title {
         font-weight: 700;
     }
     .project_card_description {
-        margin-top: 2rem;
+        margin: 2rem 0;
     }
     .project_card_skills {
-        margin-top: 2rem;
         list-style: none;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 1.5rem;
 
         .skills_list {
             font-weight: 500;
-            padding: 0.5rem  1.5rem;
-            border-radius: 100px;
-            background-color: #bfdc80;
+            font-size: 1rem;
+
         }
     }
+}
+.card_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s ease;
+    background-color: floralwhite;
+}
+
+.project_card:hover .card_overlay {
+    opacity: 0.9;
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }

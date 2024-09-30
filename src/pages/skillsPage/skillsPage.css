@@ -2,14 +2,16 @@
     margin: 0 auto;
     overflow: hidden;
     width: 100vw;
-    height: 100vh;
     max-width: 75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.skills_container {
+    margin-bottom: 3rem;
+}
 .skills_heading {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-size: 4rem;
     font-weight: 700;
     text-align: center;
