@@ -1,14 +1,16 @@
+
 .navbar {
-    margin: 0 auto;
-    height: 5rem;
+    padding: 0 5rem;
+    height: 6rem;
     width: 100%;
-    max-width: 85rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 3;
+    background-color: floralwhite;
+
 }
 .navbar_logo {
     object-fit: contain;
@@ -35,6 +37,7 @@
     border-radius: 0.5rem;
     color: #000000;
     font-weight: 500;
+    cursor: pointer;
 }
 .mob_menu_icon {
     display: none;

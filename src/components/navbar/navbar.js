@@ -41,15 +41,6 @@ export const Navbar = () => {
                       offset={-50}>
                     Projects
                 </Link>
-                <Link
-                    className="desktop_menu_item"
-                    activeClass='active'
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-50}>
-                    Contact
-                </Link>
             </div>
             <button className="desktop_menu_btn" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
@@ -103,6 +94,7 @@ export const Navbar = () => {
                     to="contact"
                     spy={true}
                     smooth={true}
+                    offset={-50}
                     nClick={()=>setShowMenu(false)}
                 >
                     Contact
