@@ -1,4 +1,4 @@
-.heroSection {
+.hero_section {
     width: 100vw;
     height: 100vh;
     max-width: 90rem;
@@ -7,7 +7,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
-.heroSection-left {
+.hero_section_left {
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
@@ -20,13 +20,13 @@
         font-size: 2rem;
         font-weight: 100;
     }
-    .introTitle{
+    .intro_title{
         margin: 2rem 0 1.5rem 0
     }
-    .introName {
+    .intro_name {
         color: yellowgreen;
     }
-    .introBody{
+    .intro_body{
         font-size: medium;
         font-weight: 300;
     }
@@ -37,16 +37,16 @@
         border-radius: 2rem;
         border: none;
 
-        .btnImg {
+        .btn_img {
             vertical-align: middle;
         }
-        .btnText{
+        .btn_text{
             padding-left: 0.7rem;
         }
     }
 
 }
-.heroSection-right {
+.hero_section_right {
     display: flex;
 
     .profilePhoto {
@@ -56,13 +56,13 @@
 }
 
 @media screen and (max-width: 880px) {
-    .heroSection {
+    .hero_section {
         display: flex;
         flex-direction: column;
         height: 64rem;
     }
 
-    .heroSection-right {
+    .hero_section_right {
         transform: scale(0.8);
         left: -3rem;
     }
