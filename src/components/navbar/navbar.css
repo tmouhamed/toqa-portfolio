@@ -40,10 +40,13 @@
     display: none;
     object-fit: cover;
     height: 2.4rem;
+    margin: 0 1rem;
 }
 .mob_menu{
+    background-color: floralwhite;
     position: absolute;
     top: 4rem;
+    right: 2rem;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -55,7 +58,7 @@
 .mob_menu_item{
     padding: 0.5rem 3rem;
     margin: 0.25rem;
-    background-color: floralwhite;
+    border-bottom: none;
 }
 /* Mobile View */
 

@@ -22,7 +22,7 @@ export const Navbar = () => {
                     smooth={true}
                     offset={-100}
                     duration={500}>
-                    Home
+                    About
                 </Link>
                 <Link
                     className="desktop_menu_item"
@@ -56,11 +56,12 @@ export const Navbar = () => {
             }}> Contact Me
             </button>
 
+            {/* navbar menu for mobile view*/}
             <img
                 src={menu}
                 alt={"menu"}
                 className="mob_menu_icon"
-                onClick={()=>setShowMenu(showMenu)}
+                onClick={()=>setShowMenu(!showMenu)}
             />
             <div className="mob_menu" style={{display: showMenu ? 'flex': 'none'}}>
                 <Link
@@ -70,9 +71,9 @@ export const Navbar = () => {
                     smooth={true}
                     offset={-100}
                     duration={500}
-                    onClick={()=>setShowMenu(showMenu)}
+                    onClick={()=>setShowMenu(false)}
                 >
-                    Home
+                    About
                 </Link>
                 <Link
                 className="mob_menu_item"
