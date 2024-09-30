@@ -33,7 +33,8 @@ export const Navbar = () => {
                     offset={-50}>
                     Skills
                 </Link>
-                <Link className="desktop_menu_item"
+                <Link
+                    className="desktop_menu_item"
                       activeClass='active'
                       to="projects"
                       spy={true}
