@@ -9,7 +9,8 @@ export const Navbar = () => {
 
 
     /* Name: Toqa Mouhamed
-    Student ID: 301479592 */
+    Student ID: 301479592
+    live portfolio : https://toqa-portfolio-408312dc8622.herokuapp.com/ */
     return (
         <nav className="navbar">
             <img src={logo} alt={"logo"} className="navbar_logo"/>
