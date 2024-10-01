@@ -5,7 +5,7 @@ import profilePhoto from '../../assets/profilePhoto.png'
 
 const HomePage = () => {
     return (
-        <section id="about" className="hero_section">
+        <section id="home" className="hero_section">
             <div className="hero_section_left">
                 <span className='hello'>Hello,</span>
                 <span className="intro_title">I'm Toqa <span className="intro_name"> Mouhamed</span> <br />Software Engineer</span>

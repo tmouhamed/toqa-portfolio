@@ -18,6 +18,16 @@ export const Navbar = () => {
                 <Link
                     className="desktop_menu_item"
                     activeClass='active'
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}>
+                    Home
+                </Link>
+                <Link
+                    className="desktop_menu_item"
+                    activeClass='active'
                     to="about"
                     spy={true}
                     smooth={true}
@@ -97,7 +107,7 @@ export const Navbar = () => {
                     spy={true}
                     smooth={true}
                     offset={-50}
-                    nClick={()=>setShowMenu(false)}
+                    onClick={()=>setShowMenu(false)}
                 >
                     Contact
                 </Link>
