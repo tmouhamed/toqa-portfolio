@@ -31,7 +31,7 @@ export const Navbar = () => {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    offset={-50}>
+                    offset={-100}>
                     Skills
                 </Link>
                 <Link
@@ -40,7 +40,7 @@ export const Navbar = () => {
                       to="projects"
                       spy={true}
                       smooth={true}
-                      offset={-50}>
+                      offset={-100}>
                     Projects
                 </Link>
             </div>

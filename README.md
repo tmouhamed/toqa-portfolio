@@ -1,3 +1,10 @@
+#I created my portfolio using React, installed React-scroll for easy transitioning between pages
+created JSON file to store my data information for easy access
+used github and pushed all the code for 2 weeks.
+added live website using heroku.
+My name: Toqa Mouhamed
+StudentID: 301497591
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
