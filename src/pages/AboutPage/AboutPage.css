@@ -1,9 +1,9 @@
 .about_page {
     background-image: url("../../assets/about_background.png");
-
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
+    color:floralwhite;
     height: 100vh;
     margin: 0 auto;
     display: flex;

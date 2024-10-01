@@ -18,7 +18,7 @@ export const Navbar = () => {
                 <Link
                     className="desktop_menu_item"
                     activeClass='active'
-                    to="home"
+                    to={"home"}
                     spy={true}
                     smooth={true}
                     offset={-100}
@@ -28,7 +28,7 @@ export const Navbar = () => {
                 <Link
                     className="desktop_menu_item"
                     activeClass='active'
-                    to="about"
+                    to={"aboutme"}
                     spy={true}
                     smooth={true}
                     offset={-100}
