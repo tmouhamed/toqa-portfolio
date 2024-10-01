@@ -1,10 +1,11 @@
-import React from "react"
+import React, {useId} from "react"
 import data from '../../assets/data/index.json'
 import './projectsPage.css'
 import {Link} from "react-scroll";
 import link from '../../assets/link.png'
 
 const ProjectsPage = () => {
+    const id = useId()
     return (
         <div id="projects" className="projects-page">
             <section className='projects_container'>
@@ -16,10 +17,8 @@ const ProjectsPage = () => {
                                 <h3 className="project_card_title">{project.name}</h3>
                                 <p className="project_card_description">{project.description}</p>
                                 <ul className="project_card_skills">{project?.skills?.map((skill) => (
-                                    <Link href={skill.link} key={skill.id}>
-                                        <li className="skills_list">{skill}</li>
-                                    </Link>
-                                    ))}
+                                    <li className="skills_list" key={project.id}>{skill}</li>
+                                ))}
                                 </ul>
                                 <span className="card_overlay">
                                     <a href={project.link} target="_blank" rel="noreferrer"><img src={link} className="overlay_img" alt={"link"}/></a>
