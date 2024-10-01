@@ -1,10 +1,9 @@
 import React from "react"
-import './landingPage.css'
-import {Link} from "react-scroll"
+import './HomePage.css'
 import resume from '../../assets/chat.png'
 import profilePhoto from '../../assets/profilePhoto.png'
 
-const LandingPage = () => {
+const HomePage = () => {
     return (
         <section id="about" className="hero_section">
             <div className="hero_section_left">
@@ -24,4 +23,4 @@ const LandingPage = () => {
         </section>
     )
 }
-export default LandingPage;
+export default HomePage;

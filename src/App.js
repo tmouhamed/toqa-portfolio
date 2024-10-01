@@ -1,14 +1,14 @@
 import { Navbar } from "./components/navbar/navbar";
-import LandingPage from "./pages/landingPage/landingPage";
-import SkillsPage from "./pages/skillsPage/skillsPage";
-import ProjectsPage from "./pages/projectsPage/projectsPage";
+import HomePage from "./pages/HomePage/HomePage";
+import SkillsPage from "./pages/SkillsPage/skillsPage";
+import ProjectsPage from "./pages/ProjectsPage/projectsPage";
 import {ContactPage} from "./pages/ContactPage/ContactPage";
 
 function App() {
   return (
     <div className="App">
         <Navbar />
-        <LandingPage />
+        <HomePage />
         <SkillsPage />
         <ProjectsPage />
         <ContactPage />
