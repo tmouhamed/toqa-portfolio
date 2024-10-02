@@ -2,8 +2,12 @@
 created JSON file to store my data information for easy access
 used github and pushed all the code for 2 weeks.
 added live website using heroku.
+
 My name: Toqa Mouhamed
-StudentID: 301497591
+StudentID: 301479591
+date: OCT 1st, 2024
+Github: https://github.com/tmouhamed/toqa-portfolio
+Live Portfolio: https://toqa-portfolio-408312dc8622.herokuapp.com/
 
 # Getting Started with Create React App
 

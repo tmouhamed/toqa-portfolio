@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+/* My name: Toqa Mouhamed
+StudentID: 301479591
+date: OCT 1st, 2024
+Github: https://github.com/tmouhamed/toqa-portfolio
+Live Portfolio: https://toqa-portfolio-408312dc8622.herokuapp.com/  */
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
