@@ -63,8 +63,7 @@
     }
 
     .hero_section_right {
-        transform: scale(0.8);
-        left: -3rem;
+        display: none;
     }
 }
 

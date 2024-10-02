@@ -9,7 +9,8 @@ const HomePage = () => {
             <div className="hero_section_left">
                 <span className='hello'>Hello,</span>
                 <span className="intro_title">I'm Toqa <span className="intro_name"> Mouhamed</span> <br />Software Engineer</span>
-                <p className="intro_body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                <p className="intro_body">I’m currently a student at Centennial College. My passion for technology and creativity drives me to explore innovative solutions. Through this portfolio, I invite you to discover my projects and insights as I combine my academic journey with hands-on experience.
+                    Join me as I explore the exciting intersection of AI and design!</p>
                 <a href={"https://drive.google.com/file/d/1P9bU-aIld8zMTTCe2KPpIMl5bQfPJWu4/view?usp=drive_link"} target="_blank" rel="noreferrer" >
                     <button className='btn'>
                         <img className='btn_img' src={resume} alt='chat'/>
