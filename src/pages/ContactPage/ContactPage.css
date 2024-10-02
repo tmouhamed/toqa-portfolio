@@ -15,7 +15,9 @@
     text-align: center;
 }
 .contact_heading{
-    margin: 2rem 0;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
 }
 .contact_links {
     display: flex;
