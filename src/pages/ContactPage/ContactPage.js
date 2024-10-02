@@ -8,7 +8,11 @@ export const ContactPage = () => {
             <section className="contact_section">
                 <p className="contact_sub_title">Get In Touch!</p>
                 <h1 className="contact_heading">Contact Me</h1>
-                <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a</p>
+                <p>I’d love to hear from you! Whether you have a question, want to collaborate,
+                    or just want to say hello, feel free to reach out. You can contact me through my accounts.
+                    or fill out the form below, and I’ll get back to you as soon as possible.
+                    Looking forward to connecting!
+                </p>
                 <Contactform />
                 <div className="contact_links">
                     {data?.contacts?.map((item) => (

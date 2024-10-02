@@ -28,7 +28,7 @@ export const Navbar = () => {
                 <Link
                     className="desktop_menu_item"
                     activeClass='active'
-                    to={"aboutme"}
+                    to={"about"}
                     spy={true}
                     smooth={true}
                     offset={-100}
