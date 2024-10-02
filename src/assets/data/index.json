@@ -101,13 +101,13 @@
     {
       "id": "2",
       "name": "Gmail",
-      "link": "s.toqaa@gmail.com",
+      "link": "mailto:s.toqaa@gmail.com",
       "icon": "./img/gmail.png"
     },
     {
       "id": "3",
       "name": "LinkedIn",
-      "link": "linkedin/com/in/toqa-mouhamed",
+      "link": "https://linkedin/com/in/toqa-mohamed",
       "icon": "./img/linkedin.png"
     }
   ]
