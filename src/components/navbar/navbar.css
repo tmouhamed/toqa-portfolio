@@ -69,7 +69,11 @@
     .mob_menu_icon {
         display: flex;
     }
-    .desktop_menu, .desktop_menu_btn{
+    .desktop_menu, .desktop_menu_btn,.navbar_logo {
         display: none;
+    }
+    .navbar {
+        padding: 0 1rem;
+        justify-content: flex-end;
     }
 }
