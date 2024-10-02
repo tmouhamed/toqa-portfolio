@@ -16,6 +16,7 @@
     background: #fffaf0;
 }
 .form_btn {
+    cursor: pointer;
     margin: 1rem;
     padding: 0.75rem 3rem;
     border-radius: 0.5rem;
